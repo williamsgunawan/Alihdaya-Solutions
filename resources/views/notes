@@ -1,0 +1,177 @@
+<head><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alihdaya Digital | Solusi Digital Inovatif</title>
+    <meta name="description" content="Kami mengubah konsep brilian Anda menjadi Website dan Aplikasi Mobile yang fungsional, elegan, dan siap memenangkan persaingan pasar.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="nav-logo">
+                    <img src="images/icon.png" width="120" height="50" alt="Logo">
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item"><a href="#services" class="nav-link">Layanan</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portofolio</a></li>
+                    <li class="nav-item"><a href="#process" class="nav-link">Proses</a></li>
+                    <li class="nav-item">
+                        <a href="https://wa.me/6285855755556?text=Hallo! saya ingin bertanya tentang IT Services" target="_blank" class="nav-link nav-link-button">
+                            Hubungi Kami
+                        </a>
+                    </li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Wujudkan Ide Digital Anda Menjadi Kenyataan.</h1>
+                    <p class="hero-subtitle">Kami mengubah konsep brilian Anda menjadi Website dan Aplikasi Mobile yang
+                        fungsional, elegan, dan siap memenangkan persaingan pasar.</p>
+                    <a href="https://wa.me/6285855755556?text=Hallo! saya ingin bertanya tentang IT Services" target="_blank" class="btn btn-primary">Konsultasi Gratis Sekarang</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Partner Pertumbuhan Digital Anda</h2>
+                    <p>Lebih dari sekadar kode, kami adalah arsitek solusi digital yang berfokus pada hasil.</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3>Desain Modern &amp; Intuitif</h3>
+                        <p>Kami memprioritaskan User Experience (UX) untuk memastikan produk Anda tidak hanya indah,
+                            tapi juga mudah dan menyenangkan untuk digunakan.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Teknologi Terkini</h3>
+                        <p>Kami membangun produk dengan teknologi terbaru yang terbukti andal, aman, dan siap untuk
+                            berkembang seiring pertumbuhan bisnis Anda.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Proses Kolaboratif</h3>
+                        <p>Anda adalah bagian dari tim. Kami menjaga komunikasi tetap transparan di setiap tahap untuk
+                            memastikan visi Anda terwujud sempurna.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services section-padding bg-light">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Solusi Digital yang Kami Tawarkan</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h4>Pengembangan Website</h4>
+                        <p>Membangun website yang cepat, responsif di semua perangkat (mobile-friendly), dan SEO-ready,
+                            mulai dari company profile hingga e-commerce.</p>
+                    </div>
+                    <div class="service-card">
+                        <h4>Pengembangan Aplikasi Mobile</h4>
+                        <p>Merancang dan mengembangkan aplikasi mobile (iOS &amp; Android) yang powerful untuk meningkatkan
+                            interaksi dengan pelanggan Anda.</p>
+                    </div>
+                    <div class="service-card">
+                        <h4>Desain UI/UX Profesional</h4>
+                        <p>Membuat desain antarmuka yang memukau dan fungsional, mulai dari wireframe, mockup, hingga
+                            prototipe interaktif.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Proyek Unggulan Kami</h2>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="images/bursa.png" alt="Bursa Karir">
+                        <div class="portfolio-info">
+                            <h5>Bursa Karir</h5>
+                            <p>Website Pencari/Melamar Kerja</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/hris.png" alt="HRIS">
+                        <div class="portfolio-info">
+                            <h5>Human Resources Information System(HRIS)</h5>
+                            <p>Website pengelola karyawan</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/ac.png" alt="Alihdaya Connect">
+                        <div class="portfolio-info">
+                            <h5>Alihdaya Connect</h5>
+                            <p>Sistem untuk absen karyawan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section-padding bg-dark">
+            <div class="container">
+                <div class="section-title text-light">
+                    <h2>Siap Memulai Proyek Anda?</h2>
+                    <p>Hubungi kami sekarang untuk mendapatkan konsultasi gratis tanpa komitmen.</p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Nama Lengkap Anda" required="">
+                        <input type="email" name="email" placeholder="Alamat Email" required="">
+                    </div>
+                    <textarea name="message" rows="5" placeholder="Ceritakan sedikit tentang proyek Anda..." required=""></textarea>
+                    <button type="submit" class="btn btn-primary">Kirim &amp; Dapatkan Konsultasi</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Alihdaya Digital. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+<audio class="audio-output" style="display: none;"></audio><div id="volume-booster-visusalizer">
+                    <div class="sound">
+                        <div class="sound-icon"></div>
+                        <div class="sound-wave sound-wave_one"></div>
+                        <div class="sound-wave sound-wave_two"></div>
+                        <div class="sound-wave sound-wave_three"></div>
+                    </div>
+                    <div class="segments-box">
+                        <div data-range="1-20" class="segment"><span></span></div>
+                        <div data-range="21-40" class="segment"><span></span></div>
+                        <div data-range="41-60" class="segment"><span></span></div>
+                        <div data-range="61-80" class="segment"><span></span></div>
+                        <div data-range="81-100" class="segment"><span></span></div>
+                    </div>
+                </div><veepn-lock-screen><template shadowrootmode="open"><style>html{box-sizing:border-box;text-size-adjust:100%;word-break:normal;tab-size:4}*,:before,:after{background-repeat:no-repeat;box-sizing:border-box}:before,:after{text-decoration:inherit;vertical-align:inherit}*{padding:0;margin:0}hr{overflow:visible;height:0;color:inherit;border:0;border-top:1px solid}details,main{display:block}summary{display:list-item}small{font-size:80%}[hidden]{display:none!important}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}a{background-color:transparent}a:active,a:hover{outline-width:0}code,kbd,pre,samp{font-family:monospace}pre{font-size:1em}b,strong{font-weight:bolder}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-color:inherit;text-indent:0}iframe{border-style:none}input{border-radius:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{appearance:none}textarea{overflow:auto;resize:vertical}button,input,optgroup,select,textarea{font:inherit;color:inherit}optgroup{font-weight:700}button{overflow:visible}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit],[role=button]{cursor:pointer}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button,html [type=button],[type=reset],[type=submit]{appearance:auto}button,input,select,textarea{background-color:transparent;border-style:none}button:-moz-focusring,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{outline:1px dotted ButtonText}select{appearance:none}a:focus,button:focus,input:focus,select:focus,textarea:focus{outline-width:0}select::-ms-expand{display:none}select::-ms-value{color:currentcolor}legend{border:0;color:inherit;display:table;white-space:normal;max-width:100%}::-webkit-file-upload-button{appearance:auto;color:inherit;font:inherit}[disabled]{cursor:default}img{border-style:none}progress{vertical-align:baseline}[aria-busy=true]{cursor:progress}[aria-controls]{cursor:pointer}[aria-disabled=true]{cursor:default}ul,ol{list-style-type:none}figure{margin:0}@keyframes slide-in{0%{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}.gradient-blue{background:radial-gradient(106.41% 128.47% at 50.15% 128.47%,#23abff,#3066ff)}.gradient-green{background:radial-gradient(92.26% 118.88% at 50.15% .13%,#00c3c3,#00aab3)}.gradient-purple{background:radial-gradient(165.12% 115.56% at 50.15% .13%,#a15aff,#00a0eb)}.bg-blue{background-color:#f2f5ff}.bg-purple{background-color:#f7f0ff}.bg-green{background-color:#ebffed}.lock-screen{font-family:FigtreeVF,sans-serif;letter-spacing:normal;position:fixed;z-index:2147483638;right:24px;bottom:24px;width:327px;border-radius:24px;overflow:hidden;box-shadow:0 24px 32px #00000014;animation:slide-in .3s ease-in-out forwards}.lock-screen__content{position:relative;padding:24px 24px 64px}.lock-screen__close{position:absolute;top:16px;right:16px;width:24px;height:24px;display:flex;align-items:center;justify-content:center;opacity:.5}.lock-screen__label{height:26px;width:fit-content;border-radius:50px;background-color:#fff3;padding-inline:16px;display:flex;align-items:center;justify-content:center;gap:8px;color:#fff;font-size:12px;line-height:18px;margin:-8px auto 16px}.lock-screen__title{color:#fff;text-align:center;font-size:20px;line-height:28px;font-weight:600;margin-bottom:8px}.lock-screen__description{color:#f5f6f7;text-align:center;font-size:14px;line-height:20px}.lock-screen__description b{font-weight:600}.lock-screen__card{position:relative;z-index:1;margin-top:-44px;background-color:#fff;border-radius:24px;padding:32px 20px 20px}.lock-screen__inner{margin-bottom:24px}.lock-screen__submit{display:flex;align-items:center;justify-content:center;gap:10px;font-weight:700;font-size:16px;height:40px;width:100%;border-radius:12px;padding-inline:16px;background-color:#f70;color:#fff;margin-bottom:16px}.lock-screen__skip{display:flex;align-items:center;justify-content:center;font-size:14px;line-height:20px;color:#82829c;margin-inline:auto}.price-card{border:1px solid #f2f2fc;background:linear-gradient(254.14deg,#fafbff .04%,#f5f8ff 100.04%);border-radius:24px;padding:24px 28px}.price-card__label{color:#4a5764;text-align:center;font-size:14px;line-height:20px;text-transform:uppercase;margin-bottom:16px}.price-card__price{display:flex;justify-content:center;align-items:flex-start;column-gap:2px;margin-bottom:12px}.price-card__currency{color:#515478;font-size:18px;line-height:28px}.price-card__number{color:#14142a;text-align:center;font-size:64px;line-height:54px}.price-card__wrap{display:flex;flex-direction:column}.price-card__decimal{color:#515478;font-size:18px;line-height:28px;font-weight:600}.price-card__period{color:#515478;font-size:14px;line-height:20px;margin-top:-6px}.price-card__discount{position:relative;display:flex;align-items:center;justify-content:center;margin-bottom:12px}.price-card__discount-divider{position:absolute;z-index:0;top:50%;left:0;width:100%;height:1px;background-color:#dbe2f9;transform:translateY(-50%)}.price-card__discount-icon{position:absolute;z-index:1;top:50%;left:50%;transform:translate(-50%,-50%)}.price-card__discount-text{position:relative;z-index:2;color:#fff;font-size:12px;font-weight:600;line-height:18px}.price-card__features{display:flex;align-items:center;justify-content:center;column-gap:16px}.price-card__feature{color:#222e3a;font-size:14px;line-height:20px;display:flex;align-items:center;gap:6px}.price-card__feature:before{content:"";display:block;width:4px;height:4px;background-color:#20df9e;border-radius:50%;flex-shrink:0}.features-list{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.features-list__item{display:flex;flex-direction:column;align-items:center;gap:6px}.features-list__icon{width:52px;height:52px;border-radius:12px;display:flex;align-items:center;justify-content:center}.features-list__text{color:#293a53;text-align:center;font-size:16px;line-height:24px;letter-spacing:-.1px}</style></template><style>@font-face{font-family:FigtreeVF;src:url(chrome-extension://majdfhpaihoncoakbjgbdhglocklcgno/fonts/FigtreeVF.woff2) format("woff2 supports variations"),url(chrome-extension://majdfhpaihoncoakbjgbdhglocklcgno/fonts/FigtreeVF.woff2) format("woff2-variations");font-weight:100 1000;font-display:swap}</style></veepn-lock-screen></body>
