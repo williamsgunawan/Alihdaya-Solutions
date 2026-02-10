@@ -100,6 +100,9 @@
             background: rgba(245, 241, 234, 0.86);
             backdrop-filter: blur(16px);
             border-bottom: 1px solid rgba(13, 15, 18, 0.08);
+            transform: translateY(-100%);
+            animation: navSlideDown 0.8s ease-out 0.2s forwards;
+            transition: padding 0.25s ease, box-shadow 0.25s ease;
         }
 
         .nav-inner {
@@ -108,6 +111,14 @@
             justify-content: space-between;
             padding: 18px 0;
             gap: 16px;
+        }
+
+        .nav.is-compact .nav-inner {
+            padding: 10px 0;
+        }
+
+        .nav.is-compact {
+            box-shadow: 0 8px 20px rgba(13, 15, 18, 0.08);
         }
 
         .brand {
@@ -384,7 +395,7 @@
         }
 
         .section-title p {
-            max-width: 487px;
+            max-width: 515px;
             color: rgba(13, 15, 18, 0.6);
         }
 
@@ -557,6 +568,12 @@
             overflow: hidden;
         }
 
+        .portfolio-item > a {
+            display: block;
+            height: 100%;
+            color: inherit;
+        }
+
         .portfolio-item img {
             width: 100%;
             height: 220px;
@@ -723,6 +740,15 @@
             }
             to {
                 clip-path: inset(0 0 0 0);
+            }
+        }
+
+        @keyframes navSlideDown {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
             }
         }
 
@@ -911,7 +937,7 @@
             <div class="feature">
                 <div>
                     <div class="badge"><span class="badge-dot"></span><span data-i18n="work.badge">Featured build</span></div>
-                    <h2 data-i18n="work.title">ClientOps System</h2>
+                    <h2 data-i18n="work.title">Alihdaya Connect</h2>
                     <p data-i18n="work.subtitle">A unified platform for managing projects, proposals, and reporting. Built to keep a fast-growing agency aligned and profitable.</p>
                     <div class="hero-actions">
                         <a class="button primary" href="#contact" data-i18n="work.planSystem">Plan your system</a>
@@ -944,11 +970,13 @@
             </div>
             <div class="grid portfolio-grid stagger">
                 <div class="portfolio-item">
-                    <img src="{{ asset('images/lowongankerja.png') }}" alt="Bursa Karir">
-                    <div class="portfolio-info">
-                        <h5 data-i18n="portfolio.card1.title">Bursa Karir</h5>
-                        <p data-i18n="portfolio.card1.body">Website pencarian dan lamaran kerja dengan alur rekrutmen yang rapi.</p>
-                    </div>
+                    <a href="https://bursakarir.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="{{ asset('images/lowongankerja.png') }}" alt="Bursa Karir">
+                        <div class="portfolio-info">
+                            <h5 data-i18n="portfolio.card1.title">Bursa Karir</h5>
+                            <p data-i18n="portfolio.card1.body">Website pencarian dan lamaran kerja dengan alur rekrutmen yang rapi.</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="portfolio-item">
                     <img src="{{ asset('images/hris.png') }}" alt="Human Resources Information System">
@@ -958,11 +986,13 @@
                     </div>
                 </div>
                 <div class="portfolio-item">
-                    <img src="{{ asset('images/alihdayaconnect.png') }}" alt="Alihdaya Connect">
-                    <div class="portfolio-info">
-                        <h5 data-i18n="portfolio.card3.title">Alihdaya Connect</h5>
-                        <p data-i18n="portfolio.card3.body">Sistem absensi karyawan yang terintegrasi dan mudah dipantau.</p>
-                    </div>
+                    <a href="http://connect.alihdayadigital.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="{{ asset('images/alihdayaconnect.png') }}" alt="Alihdaya Connect">
+                        <div class="portfolio-info">
+                            <h5 data-i18n="portfolio.card3.title">Alihdaya Connect</h5>
+                            <p data-i18n="portfolio.card3.body">Sistem absensi karyawan yang terintegrasi dan mudah dipantau.</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -1092,8 +1122,8 @@
                 "process.step4.title": "Launch & Support",
                 "process.step4.body": "We deploy, train your team, and stay on call for updates and enhancements.",
                 "work.badge": "Featured build",
-                "work.title": "ClientOps System",
-                "work.subtitle": "A unified platform for managing projects, proposals, and reporting. Built to keep a fast-growing agency aligned and profitable.",
+                "work.title": "Alihdaya Connect",
+                "work.subtitle": "Employee attendance platform with full mobile clock-in/clock-out integration and easy monitoring.",
                 "work.planSystem": "Plan your system",
                 "work.viewCapabilities": "View capabilities",
                 "work.deliveredTitle": "Delivered value",
@@ -1171,12 +1201,12 @@
                 "process.step4.title": "Peluncuran & Dukungan",
                 "process.step4.body": "Kami rilis, serah terima, dan dukung pengembangan lanjutan sesuai kebutuhan.",
                 "work.badge": "Studi kasus",
-                "work.title": "ClientOps System",
-                "work.subtitle": "Platform terpadu untuk mengelola proyek, proposal, dan laporan. Dibangun agar tim yang berkembang cepat tetap selaras dan profitable.",
+                "work.title": "Alihdaya Connect",
+                "work.subtitle": "Platform terintegrasi untuk data karyawan, absensi, dan payroll yang menyederhanakan administrasi agar tim fokus pada pertumbuhan.",
                 "work.planSystem": "Diskusikan sistem Anda",
                 "work.viewCapabilities": "Lihat kapabilitas",
                 "work.deliveredTitle": "Hasil yang dicapai",
-                "work.deliveredBody": "Onboarding 40% lebih cepat, pelaporan otomatis, dan pusat komunikasi klien yang terintegrasi.",
+                "work.deliveredBody": "Data karyawan terpusat, rekap payroll lebih cepat, dan pemantauan absensi yang akurat.",
                 "work.integrations": "Integrasi",
                 "work.productivity": "Produktivitas",
                 "testimonials.title": "Dipercaya tim yang serius bertumbuh",
@@ -1225,6 +1255,20 @@
 
         // Toggle is disabled for now; keep the page in Indonesian.
         setLanguage("id");
+    })();
+
+    (() => {
+        const nav = document.querySelector(".nav");
+        if (!nav) {
+            return;
+        }
+
+        const updateNav = () => {
+            nav.classList.toggle("is-compact", window.scrollY > 40);
+        };
+
+        updateNav();
+        window.addEventListener("scroll", updateNav, { passive: true });
     })();
 </script>
 </body>
