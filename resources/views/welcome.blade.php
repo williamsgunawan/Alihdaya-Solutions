@@ -814,7 +814,7 @@
                     <button type="button" aria-pressed="false" data-lang="id">ID</button>
                 </div>
                 -->
-                <a class="button primary" href="#contact" data-i18n="nav.startProject">Start a Project</a>
+                <a class="button primary" href="https://wa.me/6285656324229?text=Halo!%20Saya%20ingin%20konsultasi%20proyek." target="_blank" rel="noopener noreferrer" data-i18n="nav.startProject">Start a Project</a>
             </div>
         </div>
     </nav>
@@ -862,6 +862,7 @@
                     <ul>
                         <li><span data-i18n="hero.list.website">Website Design &amp; Development</span> <strong data-i18n="hero.list.websiteStrong">Brand-first</strong></li>
                         <li><span data-i18n="hero.list.systems">Custom Systems</span> <strong data-i18n="hero.list.systemsStrong">Automate workflows</strong></li>
+                        <li><span data-i18n="hero.list.mobile">Mobile App Development</span> <strong data-i18n="hero.list.mobileStrong">iOS &amp; Android</strong></li>
                         <li><span data-i18n="hero.list.product">Product Strategy</span> <strong data-i18n="hero.list.productStrong">Launch-ready</strong></li>
                         <li><span data-i18n="hero.list.support">Support &amp; Maintenance</span> <strong data-i18n="hero.list.supportStrong">Reliable care</strong></li>
                     </ul>
@@ -1093,6 +1094,8 @@
                 "hero.list.websiteStrong": "Brand-first",
                 "hero.list.systems": "Custom Systems",
                 "hero.list.systemsStrong": "Automate workflows",
+                "hero.list.mobile": "Mobile App Development",
+                "hero.list.mobileStrong": "iOS & Android",
                 "hero.list.product": "Product Strategy",
                 "hero.list.productStrong": "Launch-ready",
                 "hero.list.support": "Support & Maintenance",
@@ -1172,6 +1175,8 @@
                 "hero.list.websiteStrong": "Fokus brand",
                 "hero.list.systems": "Sistem kustom",
                 "hero.list.systemsStrong": "Otomasi workflow",
+                "hero.list.mobile": "Pengembangan Aplikasi Mobile",
+                "hero.list.mobileStrong": "iOS & Android",
                 "hero.list.product": "Strategi produk",
                 "hero.list.productStrong": "Siap diluncurkan",
                 "hero.list.support": "Dukungan & pemeliharaan",
